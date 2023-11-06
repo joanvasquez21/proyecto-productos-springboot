@@ -4,7 +4,7 @@ Este documento describe las clases clave en el proyecto "Lista de Productos". Ca
 
 ## Listado de productos 🚀
 
-La clase `BlockNotasApplication` es la clase principal de la aplicación Spring Boot. Esta clase inicia la aplicación y configura el entorno. Implementa la interfaz `CommandLineRunner` para ejecutar código al arrancar la aplicación. Se encarga de inicializar la base de datos MongoDB, insertar algunos productos de ejemplo y configurar la aplicación.
+La clase `ListadoProductosApplication` es la clase principal de la aplicación Spring Boot. Esta clase inicia la aplicación y configura el entorno. Implementa la interfaz `CommandLineRunner` para ejecutar código al arrancar la aplicación. Se encarga de inicializar la base de datos MongoDB, insertar algunos productos de ejemplo y configurar la aplicación.
 
 ## ProductoController 🎮
 
