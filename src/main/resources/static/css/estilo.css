@@ -1,0 +1,196 @@
+body {
+    background: #eee;
+}
+h1{
+	text-align: center; /* Centrar horizontalmente */
+    margin-top: 20px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center;
+    height: 40vh; /* Centrar verticalmente */
+    overflow-y: hidden; /* Ocultar la barra de desplazamiento vertical */
+}
+
+
+.boton-crear {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-top: 20px; /* Espacio entre el botón y la lista de tareas */
+}
+
+.boton-crear a {
+    display: inline-block;
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    background-color: #3498db; /* Fondo azul */
+    border: none; /* Sin borde */
+    color: #fff; /* Texto color blanco */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto de transición en el color de fondo */
+}
+
+.boton-crear a:hover {
+    background-color: #2577a9; /* Color de fondo al pasar el cursor (hover) */
+}
+
+
+
+
+
+.main-box.no-header {
+    padding-top: 20px;
+}
+
+.main-box {
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -o-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -ms-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    margin-bottom: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.table a.table-link.danger {
+    color: #e74c3c;
+}
+
+.label {
+    border-radius: 3px;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.user-list tbody td .user-subhead {
+    font-size: 0.875em;
+    font-style: italic;
+}
+
+.user-list tbody td .user-link {
+    display: block;
+    font-size: 1.25em;
+    padding-top: 3px;
+    margin-left: 60px;
+}
+
+a {
+    color: #3498db;
+    outline: none!important;
+}
+
+.user-list tbody td > img {
+    position: relative;
+    max-width: 50px;
+    float: left;
+    margin-right: 15px;
+}
+
+.table thead tr th {
+    text-transform: uppercase;
+    font-size: 0.875em;
+}
+
+.table thead tr th {
+    border-bottom: 2px solid #e7ebee;
+}
+
+.table tbody tr td:first-child {
+    font-size: 1.125em;
+    font-weight: 300;
+}
+
+.table tbody tr td {
+    font-size: 0.875em;
+    vertical-align: middle;
+    border-top: 1px solid #e7ebee;
+    padding: 12px 8px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* Agrega estilos para el formulario */
+form {
+    background: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #e7ebee;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 400px; /* Ancho máximo del formulario */
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+}
+
+/* Estilo para los campos de formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilo para el botón */
+.btn-primary {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.boton-volver {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-top: 20px; /* Espacio entre el botón y la lista de tareas */
+}
+
+.boton-volver a {
+    display: inline-block;
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    background-color: #3498db; /* Fondo azul */
+    border: none; /* Sin borde */
+    color: #fff; /* Texto color blanco */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto de transición en el color de fondo */
+}
+
+.boton-volver  a:hover {
+    background-color: #2577a9; /* Color de fondo al pasar el cursor (hover) */
+}
+
+/* Estilo para el enlace "editar" */
+.edit-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.edit-link:hover {
+    background-color: #2577a9;
+}
+
+
+

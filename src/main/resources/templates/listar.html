@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:text="${titulo}"></title>
+<link type="text/css" rel="stylesheet" href="/css/estilo.css"></link>
+    <link rel="icon" href="/jovs.png" type="image/x-icon">
+</head>
+<body>
+
+
+	<h1 th:text="${titulo}"></h1>
+	<div class="boton-crear">
+		<a th:href="@{/form}">Agregar producto +</a>
+	</div>
+	<div class="container bootstrap snippets bootdey center-content">
+
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="main-box no-header clearfix">
+					<div class="main-box-body clearfix">
+						<div class="table-responsive">
+							<table class="table user-list">
+								<thead>
+									<tr>
+										<th><span>Producto</span></th>
+										<th><span>ID del producto</span></th>
+										<th><span>Email proveedor</span></th>
+										<th class="text-center"><span>Llegada producto</span></th>
+										<th>&nbsp;</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr th:each="producto: ${productos}">
+
+										<td th:text="${producto.nombre}"></td>
+										<td th:text="${producto.productoId}"></td>
+										<td th:text="${producto.email}"></td>
+										<td
+											th:text="${#dates.format(producto.createAt, 'dd/MM/yyyy')}"></td>
+										<td>
+										  <a th:href="@{/form/} + ${producto.id}" class="edit-link">Editar</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
